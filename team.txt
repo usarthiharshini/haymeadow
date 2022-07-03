@@ -1,4 +1,6 @@
-git-collab-assignment
+git-collaboration-assignment
+
+Team Name: haymeadows
 
 Usarthi Harshini
 Sobebar Ali
