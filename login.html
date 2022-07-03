@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap');
+        .container{
+            background: rgb(14,14,14);
+background: linear-gradient(to right, rgba(68,137,211,1) , rgba(112,96,188,1) 94%, rgba(115,94,187,1) 100%);
+            width:66%;
+            height: 800px;
+            margin: auto;
+        }
+        .form{
+            height:700px;
+            width:450px;
+            background-color: white;
+            margin: auto;
+            margin-top: 4%;
+            border-radius: 10px;
+        }
+        body{
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+           margin-top: 100px;
+           font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 40px;
+          
+        }
+        .lg{
+
+            padding: 20px;
+            display: block;
+            margin: 30px auto;
+            width: 70%;
+           
+            font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+border-bottom: 4px solid rgb(184, 183, 183);
+
+
+        }
+        .submit{
+
+padding: 20px;
+display: block;
+margin: auto;
+width: 80%;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+color: white;
+margin-bottom: 60px;
+background: rgb(14,14,14);
+background: linear-gradient(to right, rgba(68,137,211,1) , rgba(112,96,188,1) 94%, rgba(115,94,187,1) 100%);
+border: 0;
+}
+        #email{
+            margin-top: 100px;
+        }
+        p{
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+font-weight: 100;
+        }
+        span{
+            color: rgb(5, 5, 172);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Login</h1>
+            <form id="login">
+                <input type="text" id="email" placeholder="Email" class="lg">
+                <input type="text" id="password" placeholder="Password" class="lg">
+                <input type="submit" id="submit" value="Login" class="submit">
+            </form>
+
+            <p>Forgot<span> Password</span>?</p>
+            <p>Don't have an account?<span>Sign Up</span> </p>
+        </div>
+    </div>
+</body>
+</html>
